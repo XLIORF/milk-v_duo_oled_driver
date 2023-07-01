@@ -1,0 +1,1 @@
+cmd_/root/workspace/ssd1306/driver/Module.symvers := sed 's/ko$$/o/' /root/workspace/ssd1306/driver/modules.order | scripts/mod/modpost     -o /root/workspace/ssd1306/driver/Module.symvers -e -i Module.symvers   -T -

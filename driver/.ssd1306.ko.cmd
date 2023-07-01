@@ -1,0 +1,1 @@
+cmd_/root/workspace/ssd1306/driver/ssd1306.ko := riscv64-unknown-linux-musl-ld -r  -melf64lriscv  --build-id=sha1  -T scripts/module.lds -o /root/workspace/ssd1306/driver/ssd1306.ko /root/workspace/ssd1306/driver/ssd1306.o /root/workspace/ssd1306/driver/ssd1306.mod.o;  true
